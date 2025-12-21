@@ -12,3 +12,4 @@
    //It doesn´t really have any cutoff of achievement as it is, but that could easily be remedied with some of the things I mentioned.
 
    //I made the powerup and obstacle texture, and changed the shape of the obstacle and powerup
+   //I modified the gravity of the particles to -.12 and made them green

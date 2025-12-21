@@ -41198,10 +41198,10 @@ GameObject:
   - component: {fileID: 7202102617491671839}
   - component: {fileID: 6078972987003864250}
   - component: {fileID: 8338466321551290480}
-  - component: {fileID: 5920220719056556375}
   - component: {fileID: 7449997934704632403}
   - component: {fileID: -7728134924081287423}
   - component: {fileID: 5957391793860472533}
+  - component: {fileID: -9015621647908774353}
   m_Layer: 0
   m_Name: GasDoughnut
   m_TagString: Untagged
@@ -41217,7 +41217,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7546012625225699749}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.349972, y: 1.31, z: -6.32}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 350, y: 350, z: 350}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -41275,21 +41275,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5920220719056556375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7546012625225699749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bf6313511daf8d40b5aef19c48ef3d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manager: {fileID: 0}
-  moveSpeed: 5
-  timeAmount: 1.5
 --- !u!54 &7449997934704632403
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -41318,7 +41303,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.0007534354
-  m_Center: {x: -0.0000077577715, y: -0.00010683914, z: 0.000007577328}
+  m_Center: {x: 0, y: -0.00010683914, z: 0}
 --- !u!95 &5957391793860472533
 Animator:
   serializedVersion: 5
@@ -41340,6 +41325,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-9015621647908774353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7546012625225699749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf6313511daf8d40b5aef19c48ef3d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 0}
+  moveSpeed: 20
+  timeAmount: 1.5
 --- !u!1 &7559532556481341122
 GameObject:
   m_ObjectHideFlags: 0

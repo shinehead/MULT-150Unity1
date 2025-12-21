@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: f6cfcecc045718b49b05070612517044
+  - enabled: 1
+    path: Assets/Scenes/clewis_Final.unity
+    guid: 703f11dac2e414d4185114b414ef7181
   m_configObjects: {}
