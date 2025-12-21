@@ -287,8 +287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f267e7ed847a744e9592c225c2d4b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerupPrefab: {fileID: 5301580881099889108, guid: 2f964971525358d41a789e01b52fc902, type: 3}
-  obstaclePrefab: {fileID: 8754743920349421788, guid: 1b10edc97ceb4f84f95af6dca8281aa9, type: 3}
+  powerupPrefab: {fileID: 2298648413018994778, guid: 2f964971525358d41a789e01b52fc902, type: 3}
+  obstaclePrefab: {fileID: 118461249244957255, guid: 1b10edc97ceb4f84f95af6dca8281aa9, type: 3}
   spawnCycle: 0.5
 --- !u!1 &867498031
 GameObject:
